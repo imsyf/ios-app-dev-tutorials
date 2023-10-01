@@ -8,3 +8,6 @@
 
 ## Chapter 3: Navigation and modal presentation
  Build a navigation hierarchy for your app, and present a modal view with its own navigation stack. Learn the fundamentals of state management. And apply that knowledge to start building and editable view.
+
+## Chapter 4: Passing data
+ Create a source of truth for your app's data. And use bindings to keep data in sync between views.
