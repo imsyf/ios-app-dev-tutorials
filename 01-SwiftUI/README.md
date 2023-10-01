@@ -11,3 +11,6 @@
 
 ## Chapter 4: Passing data
  Create a source of truth for your app's data. And use bindings to keep data in sync between views.
+
+## Chapter 5: State management
+ Learn how SwiftUI manages state for reference types. Make your app respond to changes dynamically.
