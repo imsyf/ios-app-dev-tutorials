@@ -20,3 +20,6 @@
 
 ## Chapter 7: Drawing
  Define shapes with SwiftUI geometry tools. Draw segments to represent the speaking time for scrum participants. And fill in a ring that shows the meeting progress.
+
+## Chapter 8: Recording audio
+ Respect user privacy by requesting access to their hardware or sensitive data. Record audio and transcribe it to text.
