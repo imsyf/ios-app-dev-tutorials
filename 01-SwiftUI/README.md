@@ -14,3 +14,6 @@
 
 ## Chapter 5: State management
  Learn how SwiftUI manages state for reference types. Make your app respond to changes dynamically.
+
+## Chapter 6: Persistence and concurrency
+ Keep data safe when your app closes by saving scrums to the file system. Learn how to define and call asynchronous code. And handle errors on asynchronous calls.
