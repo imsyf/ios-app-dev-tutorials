@@ -17,3 +17,6 @@
 
 ## Chapter 6: Persistence and concurrency
  Keep data safe when your app closes by saving scrums to the file system. Learn how to define and call asynchronous code. And handle errors on asynchronous calls.
+
+## Chapter 7: Drawing
+ Define shapes with SwiftUI geometry tools. Draw segments to represent the speaking time for scrum participants. And fill in a ring that shows the meeting progress.
