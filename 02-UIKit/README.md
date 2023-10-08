@@ -5,3 +5,6 @@
 
 ## Chapter 2: Collection views and navigation
  Create a new collection view to display more details about reminders. Create an accessible button that responds to user interaction. Navigate between your reminder list and detail views.
+
+## Chapter 3: Making editable views
+ Add new sections to a collection view to support editing reminders. Create customizable content views for your editable details. Observe changes to reminder data, and communicate those changes throughout your view hierarchy.
