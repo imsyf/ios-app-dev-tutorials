@@ -135,11 +135,11 @@
 		9D5AB29A2AD23FF3007A3D36 /* ContentViews */ = {
 			isa = PBXGroup;
 			children = (
+				9D5AB2A32AD24DBD007A3D36 /* DatePickerContentView.swift */,
 				9D5AB29D2AD241DD007A3D36 /* TextFieldContentView.swift */,
 				9D5AB2A12AD24B3E007A3D36 /* TextViewContentView.swift */,
 				9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */,
 				9D5AB29B2AD2401E007A3D36 /* UIView+PinnedSubview.swift */,
-				9D5AB2A32AD24DBD007A3D36 /* DatePickerContentView.swift */,
 			);
 			path = ContentViews;
 			sourceTree = "<group>";
