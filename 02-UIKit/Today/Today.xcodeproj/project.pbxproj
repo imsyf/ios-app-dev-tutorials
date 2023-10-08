@@ -23,6 +23,9 @@
 		9D2AA9E02AD169550010EE27 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AA9DF2AD169550010EE27 /* ReminderViewController+Row.swift */; };
 		9D5AB2972AD22C03007A3D36 /* ReminderViewController+Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB2962AD22C03007A3D36 /* ReminderViewController+Section.swift */; };
 		9D5AB2992AD23E25007A3D36 /* ReminderViewController+CellConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB2982AD23E25007A3D36 /* ReminderViewController+CellConfiguration.swift */; };
+		9D5AB29C2AD2401E007A3D36 /* UIView+PinnedSubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB29B2AD2401E007A3D36 /* UIView+PinnedSubview.swift */; };
+		9D5AB29E2AD241DD007A3D36 /* TextFieldContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB29D2AD241DD007A3D36 /* TextFieldContentView.swift */; };
+		9D5AB2A02AD24332007A3D36 /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		9D2AA9DF2AD169550010EE27 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 		9D5AB2962AD22C03007A3D36 /* ReminderViewController+Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Section.swift"; sourceTree = "<group>"; };
 		9D5AB2982AD23E25007A3D36 /* ReminderViewController+CellConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+CellConfiguration.swift"; sourceTree = "<group>"; };
+		9D5AB29B2AD2401E007A3D36 /* UIView+PinnedSubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+PinnedSubview.swift"; sourceTree = "<group>"; };
+		9D5AB29D2AD241DD007A3D36 /* TextFieldContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldContentView.swift; sourceTree = "<group>"; };
+		9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				9D2AA9CD2AD142440010EE27 /* Models */,
+				9D5AB29A2AD23FF3007A3D36 /* ContentViews */,
 				9D2AA9D22AD152BA0010EE27 /* ListViewController */,
 				9D2AA9DE2AD169040010EE27 /* DetailViewController */,
 				9D2AA9B92AD13E6B0010EE27 /* AppDelegate.swift */,
@@ -119,6 +126,16 @@
 				9D5AB2962AD22C03007A3D36 /* ReminderViewController+Section.swift */,
 			);
 			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		9D5AB29A2AD23FF3007A3D36 /* ContentViews */ = {
+			isa = PBXGroup;
+			children = (
+				9D5AB29D2AD241DD007A3D36 /* TextFieldContentView.swift */,
+				9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */,
+				9D5AB29B2AD2401E007A3D36 /* UIView+PinnedSubview.swift */,
+			);
+			path = ContentViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -192,12 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D5AB29C2AD2401E007A3D36 /* UIView+PinnedSubview.swift in Sources */,
 				9D5AB2972AD22C03007A3D36 /* ReminderViewController+Section.swift in Sources */,
 				9D2AA9D62AD1564A0010EE27 /* UIColor+Today.swift in Sources */,
 				9D2AA9BE2AD13E6B0010EE27 /* ReminderListViewController.swift in Sources */,
 				9D2AA9DD2AD167F50010EE27 /* ReminderViewController.swift in Sources */,
+				9D5AB2A02AD24332007A3D36 /* UIContentConfiguration+Stateless.swift in Sources */,
 				9D2AA9D12AD1514F0010EE27 /* Date+Today.swift in Sources */,
 				9D2AA9D82AD15F410010EE27 /* ReminderDoneButton.swift in Sources */,
+				9D5AB29E2AD241DD007A3D36 /* TextFieldContentView.swift in Sources */,
 				9D2AA9E02AD169550010EE27 /* ReminderViewController+Row.swift in Sources */,
 				9D2AA9DA2AD15FCC0010EE27 /* ReminderListViewController+Action.swift in Sources */,
 				9D2AA9BA2AD13E6B0010EE27 /* AppDelegate.swift in Sources */,
