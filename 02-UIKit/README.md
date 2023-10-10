@@ -8,3 +8,6 @@
 
 ## Chapter 3: Making editable views
  Add new sections to a collection view to support editing reminders. Create customizable content views for your editable details. Observe changes to reminder data, and communicate those changes throughout your view hierarchy.
+
+## Chapter 4: Adding, deleting, and filtering reminders
+ Add new reminders, and delete reminders. Use a segmented control to filter between reminder list styles.
