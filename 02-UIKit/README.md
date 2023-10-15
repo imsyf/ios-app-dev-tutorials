@@ -11,3 +11,6 @@
 
 ## Chapter 4: Adding, deleting, and filtering reminders
  Add new reminders, and delete reminders. Use a segmented control to filter between reminder list styles.
+
+## Chapter 5: Custom views and animation
+ Create accessible custom views, and animate their changes. Emphasize your design with a gradient background.
