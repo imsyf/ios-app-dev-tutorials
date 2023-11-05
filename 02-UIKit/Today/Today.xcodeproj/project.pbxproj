@@ -34,6 +34,7 @@
 		9D5AB2A02AD24332007A3D36 /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */; };
 		9D5AB2A22AD24B3E007A3D36 /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB2A12AD24B3E007A3D36 /* TextViewContentView.swift */; };
 		9D5AB2A42AD24DBD007A3D36 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5AB2A32AD24DBD007A3D36 /* DatePickerContentView.swift */; };
+		9D5F69492AF7C98900834990 /* EKReminder+Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5F69482AF7C98900834990 /* EKReminder+Reminder.swift */; };
 		9DA7DECA2AD607990084F5A1 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA7DEC92AD607990084F5A1 /* ReminderListStyle.swift */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +68,7 @@
 		9D5AB29F2AD24332007A3D36 /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 		9D5AB2A12AD24B3E007A3D36 /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		9D5AB2A32AD24DBD007A3D36 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
+		9D5F69482AF7C98900834990 /* EKReminder+Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EKReminder+Reminder.swift"; sourceTree = "<group>"; };
 		9DA7DEC92AD607990084F5A1 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,6 +122,7 @@
 				9D2D0AA72ADB85850081E966 /* CAGradientLayer+ListStyle.swift */,
 				9D2AA9D02AD1514F0010EE27 /* Date+Today.swift */,
 				9D2211382AE3D05B00B8EF6D /* EKEventScore+AsyncFetch.swift */,
+				9D5F69482AF7C98900834990 /* EKReminder+Reminder.swift */,
 				9D2AA9CE2AD142610010EE27 /* Reminder.swift */,
 				9D22113A2AE3D19200B8EF6D /* Reminder+EKReminder.swift */,
 				9DA7DEC92AD607990084F5A1 /* ReminderListStyle.swift */,
@@ -261,6 +264,7 @@
 				9D2D0AA82ADB85850081E966 /* CAGradientLayer+ListStyle.swift in Sources */,
 				9D2AA9D42AD153020010EE27 /* ReminderListViewController+DataSource.swift in Sources */,
 				9D22113D2AE3D22C00B8EF6D /* ReminderStore.swift in Sources */,
+				9D5F69492AF7C98900834990 /* EKReminder+Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
