@@ -14,6 +14,3 @@
 
 ## Chapter 5: Custom views and animation
  Create accessible custom views, and animate their changes. Emphasize your design with a gradient background.
-
-## Chapter 6: System frameworks
- Sync reminders between [Today](Today) and EventKit as you persist data in an event store.
